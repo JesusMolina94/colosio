@@ -1,0 +1,113 @@
+/* colores background */
+.bg-dark-primary-color {
+    background-color: #0F3D59;
+}
+.bg-primary-color {
+    background-color: #20448C;
+}
+.bg-accent-color {
+    background-color: #F24957;
+}
+/* colores para fuentes */
+.text-dark-primary-color {
+    color: #0F3D59;
+}
+.text-primary-color {
+    color: #20448C;
+}
+.text-accent-color {
+    color: #F24957;
+}
+.text-secondary-color {
+    color: #8a8a8a;
+}
+
+/* colores para botones outline*/
+.btn-outline-dark-primary-color {
+    color: #0F3D59;
+    border-color: #0F3D59;
+}
+.btn-outline-primary-color {
+    color: #20448C;
+    border-color: #20448C;
+}
+.btn-outline-accent-color {
+    color: #F24957;
+    border-color: #F24957;
+}
+/* hover para los botones outline*/
+.btn-outline-dark-primary-color:hover {
+    color: #fff;
+    background-color: #0F3D59;
+    border-color: #0F3D59;
+}
+.btn-outline-primary-color:hover {
+    color: #fff;
+    background-color: #20448C;
+    border-color: #20448C;
+}
+.btn-outline-accent-color:hover {
+    color: #fff;
+    background-color: #F24957;
+    border-color: #F24957;
+}
+
+/* colores para botones */
+.btn-dark-primary-color {
+    color: #fff;
+    background-color: #0F3D59;
+    border-color: #0F3D59;
+}
+.btn-primary-color {
+    color: #fff;
+    background-color: #20448C;
+    border-color: #20448C;
+}
+.btn-accent-color {
+    color: #fff;
+    background-color: #F24957;
+    border-color: #F24957;
+}
+/* hover para botones */
+.btn-dark-primary-color:hover {
+    color: #fff;
+    background-color: #0d3650;
+    border-color: #0d3650;
+}
+.btn-primary-color:hover {
+    color: #fff;
+    background-color: #1c3d7e;
+    border-color: #1c3d7e;
+}
+.btn-accent-color:hover {
+    color: #fff;
+    background-color: #df4350;
+    border-color: #df4350;
+}
+
+
+/* fuente principal */
+@font-face {
+	font-family: Neufreit;
+	src: url(../fonts/Neufreit-ExtraBold.otf);
+}
+
+
+.ob-fit-h {
+    object-fit: cover;
+    height: 100%;
+}
+.ob-fit-w {
+    object-fit: cover;
+    width: 100%;
+}
+.ob-fit-wh {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.ob-fit-contain {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}

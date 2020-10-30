@@ -1,0 +1,116 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.logo-colosio {
+    position: absolute;
+    width: 80px;
+    margin-top: -25px;
+}
+
+.left-to-logo {
+    margin-left: 80px;
+}
+
+.lema-from-title {
+    font-size: 9px;
+    margin-top: -4px;
+    position: absolute;
+    color: #bdbdbd;
+}
+
+.navbar-brand {
+    z-index: 10;
+}
+
+/* colores para dropdown stilo colosio*/
+.dropdown-color-colosio {
+    background-color: #F24957;
+}
+.dropdown-color-colosio a {
+    color: white;
+}
+
+/* carrucel e imagen*/
+.carousel-header .carousel-item {
+    height: 500px;
+    overflow: hidden;
+}
+
+.carousel-header .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.big-title {
+    font-family: Neufreit;
+    font-size: 40px;
+}
+
+
+.btn-msg {
+    position: fixed;
+    width: 50px;
+    bottom: 50px;
+    right: 20px;
+    z-index: 10;
+}
+
+.btn-circle img {
+    width: 50px;
+    margin-top: 10px;
+}
+
+.title-colosio-presentacion {
+    margin-top: 10px;
+}
+.title-colosio-presentacion small {
+    margin-left: 10px;
+    position: absolute;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+
+
+.footer {
+    padding: 50px 20px !important;
+    color: #ecf0f5;
+}
+
+.back-footer {
+    background-color: black;
+    padding: 10px;
+    color:#7d7d7d;
+}
+
+.address {
+    font-size: 12px;
+}
+
+
+.font-big {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.box-accent {
+    border-radius:60px; 
+    padding-left: 10px;
+    padding: 10px;
+}
+
+
+.big-text {
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.zoom-in {
+    cursor: zoom-in;
+}
+.zoom-out {
+    cursor: zoom-out;
+}
